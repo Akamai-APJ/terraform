@@ -65,7 +65,7 @@ resource "akamai_property" "res-property" {
     cname_to               = var.edgeHostname
     cert_provisioning_type = var.cert_provisioning_type
   }
-  rule_format = "v2020-03-04"
+  rule_format = "latest"
   rules       = data.akamai_property_rules_template.rules.json
 }
 # Activate property in staging
