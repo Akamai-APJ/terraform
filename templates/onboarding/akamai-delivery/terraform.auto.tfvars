@@ -7,7 +7,7 @@ edgeHostname    = "www.yohanlakhani.com-v1.edgekey.net" # Akamai Edge Hostname y
 certificate     = 164965                          # Enrollment ID: Required only when creating an Enhanced TLS edge hostname. 
 # variable cert_provisioning_type reflects which type of HTTPS SSL/TLS Certificate method you use with Akamai. This can be CPS_MANAGED for certificates managed in Certificate Provisioning System or DEFAULT for Secure By Default feature.
 cert_provisioning_type = "CPS_MANAGED"
-rule_format            = "vlatest" # Akamai PM rule format which includes updated behaviors for newer versions. 
+rule_format            = "v2020–11–01" # Akamai PM rule format which includes updated behaviors for newer versions. https://registry.terraform.io/providers/akamai/akamai/latest/docs/data-sources/property_rule_formats
 cpcode_name            = "yohanlakhani.com"
 configuration_name     = "yohanlakhani.com"
 hostname               = "www.yohanlakhani.com"
