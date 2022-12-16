@@ -77,7 +77,7 @@ resource "akamai_property_activation" "res-property" {
   note        = "Test Automation"
 
 }
-
+}
 
 
 
