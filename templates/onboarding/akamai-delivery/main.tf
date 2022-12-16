@@ -67,7 +67,7 @@ resource "akamai_property" "res-property" {
   }
   rule_format = "latest" #"v2020-03-04"
   rules       = data.akamai_property_rules_template.rules.json
-
+}
 # Activate property in staging
 resource "akamai_property_activation" "res-property" {
   property_id = akamai_property.res-property.id
@@ -77,8 +77,3 @@ resource "akamai_property_activation" "res-property" {
   note        = "Test Automation"
 
 }
-}
-
-
-
-
