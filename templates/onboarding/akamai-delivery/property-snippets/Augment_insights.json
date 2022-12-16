@@ -26,27 +26,6 @@
             "comments": "Identify your main traffic segments so you can zoom in your traffic statistics like hits, bandwidth, offload, response codes, and errors."
         },
         {
-            "name": "mPulse RUM",
-            "children": [],
-            "behaviors": [
-                {
-                    "name": "mPulse",
-                    "options": {
-                        "apiKey": "",
-                        "bufferSize": "",
-                        "configOverride": "",
-                        "enabled": true,
-                        "loaderVersion": "V12",
-                        "requirePci": false,
-                        "titleOptional": ""
-                    }
-                }
-            ],
-            "criteria": [],
-            "criteriaMustSatisfy": "all",
-            "comments": "Collect and analyze real-user data to monitor the performance of your website."
-        },
-        {
             "name": "Geolocation",
             "children": [],
             "behaviors": [
